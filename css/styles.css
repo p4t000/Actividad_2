@@ -163,7 +163,6 @@ body{
   display: flex;
 }
 
-
 .barra-inferior ul li {
   list-style: none;
   margin-left: 5rem;
@@ -171,5 +170,56 @@ body{
 
 .barra-inferior ul li a{
   text-decoration: none;
+  color: white;
+}
+
+.blog {
+  background-color: lightcyan;
+  display: flex;
+  border-radius: .9rem;
+  margin: 4rem;
+  flex-wrap: wrap;
+}
+
+.blog-img {
+  flex-basis: 20%;
+}
+
+.blog-descripcion {
+  flex-basis: 80%;
+  padding: 4rem;
+}
+
+.sobre-nosotros p { 
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  max-width: 60rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.label {
+  margin-top: 1rem;
+  font-weight: bold;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.input {
+  font-size: 1.6rem;
+  border-color: #ccc;
+  border-radius: .5rem;
+  width: 60rem;
+}
+
+.boton {
+  background-color: black;
   color: white;
 }
